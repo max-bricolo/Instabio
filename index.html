@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>max_g.rlr Instabio</title>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+		 <link href="design.css" rel="stylesheet" type="text/css" />
+		 <link href="src/css/handydesign.css" rel="stylesheet" type="text/css" media="screen, handheld"/>
+</head>
+<body>
+<div id="header"> <img src="src/maximstagram.png"  ></div>
+
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+
+
+<div id="info">
+    <span id="description">
+      Da Instagram mich auf 150 Zeichen festlegen wollte, <br> ist meine Bio jetzt hier zu finden...
+    </span>
+    <div id="accept"><a href="#" title="Okay">Okay</a></div>
+  </div>
+
+  <script>
+    var footerCookie = document.querySelector("#info");
+    var footerCookieAccept = document.querySelector("#accept");
+
+    if (document.cookie.indexOf("dakitecCookieBanner=") == -1) {
+      footerCookie.style.display = "block";
+    }
+
+    footerCookieAccept.onclick = function(e) {
+      var cookieDate = new Date();
+      cookieDate.setTime(new Date().getTime() + 31104000000);
+
+      document.cookie = "dakitecCookieBanner = 1; path=/; secure; expires=" + cookieDate.toUTCString();
+
+      footerCookie.style.display = "none";
+    };
+  </script>
+ <br>
+ <br>
+
+ <p><b>Maxim</b></p>
+<p>
+  Mensch<br>
+  - meistens zumindest-<br>
+  Experte für’s Schlafen<br>
+  Cooler als Seetang<br>
+  Laufendes Wörterbuch<br>
+  Metallisches Feld<br>
+  Dr. monsieur der Weise<br>
+  some wierd shis demon<br> 
+</p>
+ 
+</table>
+</center>
+</body>
+</html>

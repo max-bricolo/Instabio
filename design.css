@@ -1,0 +1,88 @@
+*{font-family:arial,
+ "lucida console", sans-serif;
+}
+#header{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+padding-top: 30px;
+padding-right: 25%;
+padding-left: 25%;
+padding-bottom: 10px;
+background-color: #fff;
+border-style: solid;
+border-width: 1px;
+border-color: #D5DBDB ;
+}
+
+h1{text-align: center;
+	
+}
+
+body {
+        margin-top: 10%; 
+        margin-left: 25%; 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:  #FAFAFA ;
+        width: 50%;
+      }
+
+  #info, #info * {
+      box-sizing: border-box;
+    }
+
+    #info {
+      display: none;
+      position: fixed;
+
+      border-radius: 25px;
+      width: 25%;
+      height: 180px;
+      padding-left: 30px;
+      padding-right: 30px;
+      line-height: 60px;
+      background: #F2F3F4;
+      color: #000;
+    }
+
+    #info a {
+      color: #000;
+    }
+
+    #info #description {
+      float: left;
+    }
+
+    #info #accept {
+      float: right;
+    }
+
+    #info #accept a {
+      border: 1px solid #000;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 1200px) {
+      #info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: inherit;
+        height: auto;
+      }
+
+      #info #description {
+        width: 100%;
+      }
+
+      #info #accept {
+        width: 100%;
+        margin-top: 15px;
+      }
+
+      #info #accept a {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
