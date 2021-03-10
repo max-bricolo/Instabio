@@ -5,7 +5,7 @@
 position: absolute;
 top: 0px;
 left: 0px;
-width: 100%;
+width: 50%;
 padding-top: 30px;
 padding-right: 25%;
 padding-left: 25%;
@@ -15,7 +15,7 @@ border-style: solid;
 border-width: 1px;
 border-color: #D5DBDB ;
 }
-
+#header .logo{margin-bottom:  10px;}
 h1{text-align: center;
 	
 }
@@ -35,9 +35,9 @@ body {
     #info {
       display: none;
       position: fixed;
-
+      margin-left: 15%;
       border-radius: 25px;
-      width: 25%;
+      width: 20%;
       height: 180px;
       padding-left: 30px;
       padding-right: 30px;
